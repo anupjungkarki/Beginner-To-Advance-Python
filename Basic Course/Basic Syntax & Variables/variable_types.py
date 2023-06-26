@@ -1,6 +1,7 @@
 ''' 
 There are different data types in assigned python variable and those are identify 
 by the nature of data value.
+
 '''
 
 # Number type in Python  (int , float , complex)
@@ -15,7 +16,7 @@ n = True
 print(type(m))
 
 
-# Let's cover python casting in this topic
+# Let's cover python type casting in this topic
 # Python casting is the process of converting one data types to another data types.
 
 # Example
