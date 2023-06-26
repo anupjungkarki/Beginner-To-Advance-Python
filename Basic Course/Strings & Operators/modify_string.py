@@ -1,1 +1,1 @@
-# Here we are learning about how we can modify string in python
+# Here we are learning about how we can modify string in python programming
