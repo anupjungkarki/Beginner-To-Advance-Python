@@ -21,7 +21,7 @@ str4 = "Python is a Language"
 replace = str4.replace("P", "C")
 print(replace)
 
-# Split The string in python 
+# Split The string in python as list
 str5 = "Hello, Python, Programmer"
 split_str = str5.split(".")
 print(split_str)

@@ -1,4 +1,7 @@
-# Here we will do basic example from day 1 topics.
+'''
+Here we will do basic example.
+
+'''
 
 # Example using int,float and string
 total_marks = 600

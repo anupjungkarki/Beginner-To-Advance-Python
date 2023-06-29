@@ -3,7 +3,7 @@
 
 '''
 
-print('Hello, World Let\'s get into to python Six Month Challenge')
+print('Hello, World Let\'s get into to Beginner to Advance Python')
 
 
 ''' 
