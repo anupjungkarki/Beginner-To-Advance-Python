@@ -27,5 +27,5 @@ split_str = str5.split(".")
 print(split_str)
 
 
-# There are many other Build in Method for string modification in python thhe usage are same as above example
-# We can learn as per the need and used
+# There are many other Build in Method for string modification in python the usage are same as above example
+# We can learn as per the need and use
