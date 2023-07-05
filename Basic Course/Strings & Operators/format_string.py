@@ -20,3 +20,5 @@ week = 6
 txt = "Hello ,I am {0} years old and I am Learning Python From {1} Day's ago till to next {2} Weeks."
 result = txt.format(age,day,week)
 print(result)
+
+
