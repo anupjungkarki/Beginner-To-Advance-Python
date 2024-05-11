@@ -10,7 +10,7 @@ print('Hello, World Let\'s get into to Beginner to Advance Python')
  The rules that define the structure of the language for python is called its syntax. 
  Without this, the meaning of the code is hard to understand. These include the usage of symbols,
  punctuations, words and how you should use them while you code in the language.   
-   
+ 
 '''
 
 
