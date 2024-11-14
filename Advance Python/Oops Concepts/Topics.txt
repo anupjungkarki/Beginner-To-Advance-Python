@@ -1,0 +1,9 @@
+Topics that we will cover in Object Oriented Python Programming,
+ 1. Class & Object
+ 2. Inheritance
+ 3. Polymorphism
+ 4. Instant
+ 5. Methods
+ 6. Attributes
+ 7. Encapsulation
+ 
