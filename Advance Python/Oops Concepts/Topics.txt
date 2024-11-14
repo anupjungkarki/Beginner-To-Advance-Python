@@ -6,4 +6,8 @@ Topics that we will cover in Object Oriented Python Programming,
  5. Methods
  6. Attributes
  7. Encapsulation
+ 8. Abstraction
+ 9. Class Method and Static Method
+ 10. Properties & Getter/Setter 
+ 11. Magic (Dunder) Method
  
