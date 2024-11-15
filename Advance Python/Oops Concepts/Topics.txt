@@ -11,3 +11,20 @@ Topics that we will cover in Object Oriented Python Programming,
  10. Properties & Getter/Setter 
  11. Magic (Dunder) Method
  
+
+
+Class attribute and Object attribute
+Initilizing object attribute
+__init__()
+Self keyword and its importance
+Inheritance and its types
+Single Inheritance
+super() method
+Mulitple Inheritance
+Multi-level Inheritance
+Abstraction and Access specifiers
+Polymorphism
++ and len()
+Operator overloading using Dunders/magic method (user defined class)
+function overriding
+Encapsulation
