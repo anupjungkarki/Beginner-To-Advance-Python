@@ -14,3 +14,7 @@ class Person:
         self.name = name
         self.age = age
         self.address = address
+
+# Create an instance of Person
+p = Person('Anup Karki',23,'Nepal')
+print(f'The name of person is {p.name} and he is {p.age} years old he live in {p.address}.')
