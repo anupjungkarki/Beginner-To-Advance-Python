@@ -14,3 +14,27 @@ then the result will be --> (e.g., <__main__.ClassName object at 0x...>).
 class Account:
     def __init__(self, name , balance):
         self.name = name
+        self.balance = balance
+
+    def __str__(self):
+        return f"The name of Account Holder is {self.name} and His Balance is ${self.balance}."
+
+p = Account("Anup Karki" , 20000)
+print(p)
+
+
+
+# What happen WITHOUT the __str__() function 
+'''
+If __str__() is not defined, Python falls back to the default implementation, which displays the object’s memory address.
+
+'''
+
+class Account:
+    def __init__(self, name , balance):
+        self.name = name
+        self.balance = balance
+
+p = Account("Anup Karki" , 20000)
+print(p)
+
