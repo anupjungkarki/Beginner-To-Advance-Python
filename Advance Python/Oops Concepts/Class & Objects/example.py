@@ -29,11 +29,15 @@ class BankAccount:
     def check_balance(self):
         print(f"Account Balance for {self.account_holder} is ${self.balance}.")
 
+
 # Creating an instance of BankAccount
 account = BankAccount("Anup Karki","12432637365", 1000)
+
 
 # Using Method for Deposit, Withdraw and Check Balance 
 account.deposit(50)
 account.withdraw(500)
 account.check_balance()
+
+
 
