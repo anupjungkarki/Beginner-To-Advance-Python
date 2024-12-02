@@ -25,6 +25,7 @@ print(stu.get_age())
 
 
 # Let's explain the code how it works
+
 '''
 1.Class ( Student): A blueprint for creating objects. It has attributes (name and age) and methods (get_name() and get_age()).
 2.Constructor (__init__): The __init__ method initializes name and age when a Student object is created.
