@@ -34,7 +34,7 @@ Let's talk about the variable name declaration method here
 2: We are allow to use camel case = myVariableName , pascal case = MyVariableName ,
    snake case = my_variable_name any of this form and also underscore at the beginning.
 
-Conculusion : variable name can only contain alpha-numeric characters and underscores.
+Conclusion : variable name can only contain alpha-numeric characters and underscores.
 
 '''
 
@@ -44,3 +44,16 @@ print(x,y,z)
 print(type(x),type(y),type(z)) # Just Checking the types
 
 # Similary we can also assign the multiple variblable for any data types.
+a = b = c = 10
+print(a,b,c)
+print(type(a),type(b),type(c)) # Just Checking the types
+
+# We can also swap the variable value in python without using any third variable.
+m = 5
+n = 10
+print("Before Swapping : ", m , n)
+m , n = n , m
+print("After Swapping : ", m , n)
+# Above we have swapped the variable value without using any third variable.
+
+

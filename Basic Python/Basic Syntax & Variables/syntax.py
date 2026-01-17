@@ -15,7 +15,7 @@ print('Hello, World Let\'s get into to Beginner to Advance Python')
 
 
 '''
-Some basic Syntax in Pyhton are ⏬
+Some basic Syntax in Python are ⏬
 1. Statements and Indentation
 2. Comments (#) is usually used for comment the code or text in Python we can use ''' ''' for multiline 
    comments in python as you can see in this block too.

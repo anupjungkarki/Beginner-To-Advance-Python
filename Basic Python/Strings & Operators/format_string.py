@@ -1,6 +1,6 @@
 '''
 As we know that string and number can't be combine by simply doing concatenation so here,
-we have special method called format() to do this things in  easier way.Where format() take the 
+we have special method called format() to do this things in  easier way. Where format() take the 
 pass argument and formats them as per the index value and place them accordingly in the string
 where the placeholder is define {}.
 

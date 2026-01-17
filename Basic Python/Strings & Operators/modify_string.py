@@ -17,7 +17,7 @@ r = str3.strip()
 print(r)
 
 # Replace String in python with another string
-str4 = "Python is a Language"
+str4 = "Python is a Programming Language"
 replace = str4.replace("P", "C")
 print(replace)
 
