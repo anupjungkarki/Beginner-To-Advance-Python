@@ -4,8 +4,8 @@ Principles : Python follows the principles of simplicity, readability, and expli
 Python uses indentation to define code blocks instead of curly braces or keywords.
 
 What is Python Syntax and Variables?
-- Python Syntax is a set of rules that defines how a Python program will be written an interpreted.
-Variables are used to store data values in a program.
+ - Python Syntax is a set of rules that defines how a Python program will be written an interpreted.
+ - Variables are used to store data values in a program.
 
 What is indentation in Python?
 - Indentation refers to the spaces at the beginning of a code line.
@@ -22,11 +22,34 @@ What is print() function in Python?
 What is input() function in Python?
 - The input() function in Python is used to take input from the user.
 
+What is eval() function in Python?
+- The eval() function in Python is used to evaluate a string as a Python expression and return the result.
+
 '''
-# Example of print() function in Python:
+# Example of indentation in Python:
+if 5 > 2:
+    print("Five is greater than two!")
+
+# if 5 > 2:
+# print("Five is greater than two!") # This will raise an IndentationError
+
+# Example of input() function in Python:
+name = input("Enter your name:")
+print("Hello, " + name + "!")
+print(name)
+
+a = input("Enter first number:")
+b = input("Enter second number:")
+sum = int(a) + int(b)
+print("The sum of", a, "and", b, "is:", sum)
+
+# # Example of print() function in Python:
 print("Hello, World!")
 print("Welcome to Python Programming")
 print(5 + 3)
 print("The sum of 5 and 3 is:", 5 + 3)
 
-
+# Example of eval() function in Python:
+expression = input("Enter a mathematical expression (e.g., 5+3):")
+result = eval(expression)
+print("The result of the expression is:", result)

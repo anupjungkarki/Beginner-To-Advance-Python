@@ -7,6 +7,7 @@ You can think of variables as containers that hold data values.
 '''
 
 '''
+===================================Python Core Data Types ====================================
 Data Types in Python?
 Python has various standard data types that are used to define the operations possible on them and the storage method for each of them.
 Here are some of the most commonly used data types in Python:

@@ -6,6 +6,6 @@
 def greet(name):
     """This function greets the person passed as a parameter."""
     print(f"Hello, {name}!")
-    # Callin the function
+    # Calling the function
 greet("Anup")
 # Output: Hello, Anup!
