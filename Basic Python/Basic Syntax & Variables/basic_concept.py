@@ -9,7 +9,7 @@ What is Python Syntax and Variables?
 
 What is indentation in Python?
 - Indentation refers to the spaces at the beginning of a code line.
-- In pyhton indentation is used to define the structure and hierarchy of the code.
+- In python indentation is used to define the structure and hierarchy of the code.
 - Proper indentation is crucial in Python as it determines how the code is grouped together.
 Example of indentation in Python:
 if 5 > 2:
