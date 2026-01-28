@@ -1,6 +1,6 @@
 '''
 Assignment of Value to Variable in Python
-In Python, assigning a value to a variable is straightforward and does not require explicit declaration of the variable type.
+In Python, assigning a value to a variable is straight forward and does not require explicit declaration of the variable type.
 You simply use the assignment operator (=) to assign a value to a variable name.
 
 '''
