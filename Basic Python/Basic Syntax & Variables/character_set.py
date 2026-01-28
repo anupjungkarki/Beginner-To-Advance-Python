@@ -11,6 +11,7 @@ print("Hello, World!")  # English
 print("こんにちは世界")  # Japanese
 print("Привет, мир!")  # Russian
 print("😊🌍🚀")  # Emojis
+print("नमस्ते !")  # Nepali
 
 # Character Encoding in Python
 Character encoding is the process of converting characters into a specific format for storage or transmission.
@@ -39,4 +40,5 @@ print("Hello, World!")  # English
 print("こんにちは世界")  # Japanese
 print("Привет, мир!")  # Russian
 print("😊🌍🚀")  # Emojis]
+print("नमस्ते !")  # Nepali
 
