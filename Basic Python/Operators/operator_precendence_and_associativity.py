@@ -26,10 +26,13 @@ result = a + b * c ** 2 - (a / b)
 print("Result:", result)  # Output: Result: 17.0
 
 # Explanation of the example:
-# 1. Exponentiation: c ** 2 = 2 ** 2 = 4
+# 1. Exponentiation: c ** 2 = 2 ** 2 = 4 
 # 2. Multiplication: b * 4 = 5 * 4 = 20
 # 3. Division: a / b = 10 / 5 = 2.0
 # 4. Addition: a + 20 = 10 + 20 = 30
 # 5. Subtraction: 30 - 2.0 = 28.0
 # Final result is 28.0
 # Note: Parentheses have the highest precedence, so expressions within parentheses are evaluated first.
+
+e =  a ** b * c
+print(e)
