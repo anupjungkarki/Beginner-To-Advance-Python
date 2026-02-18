@@ -27,3 +27,4 @@
 # print(bin(read))
 # print(bin(write))
 
+print(-2 ** 3 + 10 * 4 // 5 > 8 and 15 == 3 * 5 or not 20 // 6 <= 2)
