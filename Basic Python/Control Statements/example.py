@@ -28,9 +28,7 @@ sql = int(input("Enter the marks of sql:"))
 total_obtained = ai + python + java + c + sql
 percentage  = float(total_obtained) / float(total_marks) * 100
 print("The percentage by student is :", percentage , "%")
-
 print("The total marks of " + name + "is:", total_obtained)
-
 
 if(ai >= 32 and python >= 32 and java >= 32 and c >= 32 and sql >= 32):
     print("Pass")

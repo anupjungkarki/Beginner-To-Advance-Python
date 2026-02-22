@@ -1,31 +1,8 @@
 # simple gui calculator using tkinter
 import tkinter as tk
 from tkinter import messagebox
-from tkinter import ttk
-import operator
-import re
-import math
-import ast
-import operator as op
-import sys
-import traceback
-import logging
-import time
-from datetime import datetime
-import threading
-import json
-import os
-import random
-import string
-import requests
-import webbrowser
-import subprocess
-import platform
-import shutil
-import tempfile
-import zipfile
-import csv
-import sqlite3
+
+
 import xml.etree.ElementTree as ET
 class Calculator:
     def __init__(self, root):

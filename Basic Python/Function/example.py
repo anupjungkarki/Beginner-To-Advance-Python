@@ -2,13 +2,14 @@
 def add(a , b):
     return a + b
 result = add(3,5)
-print("The sun of 3 and 5 is:", result)
+print("The sum of 3 and 5 is:", result)
 
 # SIMPLE PROGRAM
 def msg():
     print("Hello World!")
 msg()
 
+# Simple example without using function return 
 def addition(a , b):
     sum = a + b
     print(f'The sum of {a} and {b} is:',sum)
@@ -16,6 +17,7 @@ a = int(input("Enter the first number:"))
 b = int(input("Enter the second number:"))
 addition(a, b)
 
+# Simple addition using funcion return 
 def addition(a , b):
     sum = a + b
     return sum 

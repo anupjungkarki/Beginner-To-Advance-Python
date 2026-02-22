@@ -5,7 +5,7 @@ Control statements?
 --If else is used to control the flow of the progrma.
 --Loop is used to repeat the same statement multiple times.
 
-Syntax:
+Syntax syntax of control statement:
 if contion:
     statement
 elif condition:
@@ -14,7 +14,7 @@ else:
     statement
 
 
-Syntax:
+Syntax of for loop:
 for variable in sequence:
     statement
 
@@ -35,7 +35,6 @@ else:
 
 
 # Example of for Loop
-
 for i in range(10):
     print(i)
 
