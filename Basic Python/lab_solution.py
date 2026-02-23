@@ -6,7 +6,7 @@
 4.	Write a Python program to print all even numbers from 1 to 50 using a while loop.
 5.	Write a Python program to check whether a number is palindrome or not.
 6.	Write a Python program to print the multiplication table from 1 to 10 using a nested for loop.
-7.Write a python program to pring the square pattern 
+7.  Write a python program to pring the square pattern 
 
 * * * *
 * * * *
