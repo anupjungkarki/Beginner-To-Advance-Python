@@ -2,12 +2,11 @@ list1 = [1, 3, 3, 4, 5, 6, 7, 8, 9, 10]
 list2 = [10, 3, 8, 25, 16, 14, 12, 19, 10]
 
 # Create a List of 5 Numbers Entered by the User
-list3 = []   # Empty list
-
-for i in range(5):
-    num = int(input("Enter a number: "))
-    list3.append(num)
-print("The list of numbers is:", list3)
+# list3 = []   # Empty list
+# for i in range(5):
+#     num = int(input("Enter a number: "))
+#     list3.append(num)
+# print("The list of numbers is:", list3)
 
 
 # Join two lists using extend() method
@@ -66,5 +65,27 @@ print("The list of numbers is:", list3)
 #     if i == max(list1):
 #         print(f'The largest number in the list is: {i}')
 
+# Creating Nested List
+
+# l = []
+# l.append(list1)
+# l.append(list2)
+# print(l)
 
 
+# nested list
+# nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# # print(nested_list[0][1])
+
+# for data in nested_list:
+#     for v in data:
+#         print(v)
+
+# Searching for a specific element in the nested list using for loop and if statement
+# search = int(input("Enter the search value: "))
+# for data in nested_list:
+#     if search in data:
+#         print(f'{search} is found in the list: {data}')
+#         break
+# else:
+#     print(f'{search} is not found in the list')

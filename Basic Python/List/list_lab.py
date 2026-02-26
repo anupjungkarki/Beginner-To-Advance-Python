@@ -13,3 +13,13 @@ print(max(list1))
 
 list1.append(12)
 print(list1)
+
+# Accessing List using for loop and range() function
+for i in range(len(list1)):
+    print(list1[i])
+
+# Updating the list using index
+list1[3] = 10
+print(list1)
+
+
