@@ -4,8 +4,7 @@ list = [1, 2, 3, 4, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 12]
 # Iterating through the list
 for i in list:
     print(i)
-
- 
+    
 # Accessing the first element
 # print(list[0]) 
 # print(list[1])  
