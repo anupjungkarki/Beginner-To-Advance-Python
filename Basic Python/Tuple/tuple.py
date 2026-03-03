@@ -7,6 +7,17 @@ In Python tuples are written with round brackets.
 # my_tuple = ("apple", "banana", "cherry")
 # print(my_tuple)
 
+
+# Creating tuple using tuple() function
+new_tuple = tuple(("anup", "Kathmandu", "AI" , 23))
+print(new_tuple)
+# Output : (“anup”, “ Kathmandu”, “AI” , 23)
+
+# when an iterable(e.g., string) is passed
+s = "anupkarki"
+d = tuple(s)
+print(d)
+
 # # unpacking a tuple
 # t3 = 1, 2, 4, 5
 # print(t3)
@@ -32,11 +43,24 @@ for i in range(len(tuples)):
 # Accessing Tuples uing index
 print(tuples[2])
 
-
+# Concatenating two tuples
 a = (1, 2, 3, 4, 5)
 b = (6, 7, 8, 9, 10)
-
-# Concatenating two tuples
 c = a + b
 print(c)
- 
+
+# Tupe Negative Indexing
+tuple1 = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# slice a tuple using negative indexing
+print(tuple1[-5:-1])
+
+# Sort Tuple in ascending and decending order
+num=(1,3,2,4,6,5)
+ascending = (sorted(num))
+decending = (sorted(num,reverse=True))
+print(ascending)
+print(decending)
+# As we can see that tuple return list of sorted data by using sorted function do we need to bring back to the original tuple form in following way.
+print(tuple(ascending))
+print(tuple(decending))
+# output : 

@@ -21,5 +21,10 @@ for i in range(1,11):
         print(f'{i} * {j} =' ,i *j , end="\n")
 
 
-   
-
+# Example of while loop
+i = 1
+while i <= 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i, end=' ')

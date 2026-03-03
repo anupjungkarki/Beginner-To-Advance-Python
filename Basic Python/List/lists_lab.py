@@ -65,14 +65,13 @@ for i in list1:
         print(f'The largest number in the list is: {i}')
 
 # Creating Nested List
-
 l = []
 l.append(list1)
 l.append(list2)
 print(l)
 
 
-# nested list
+# Iterating through nested list
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(nested_list[0][1])
 
@@ -106,7 +105,6 @@ for grade in grades:
 
 # Searching value in list
 names = ["Alice", "Bob", "Charlie", "Diana"]
-
 search_name = "Charlie"
 found = False
 
