@@ -67,3 +67,4 @@ print(stu)
 # using clear
 stu.clear()
 print(stu)
+
