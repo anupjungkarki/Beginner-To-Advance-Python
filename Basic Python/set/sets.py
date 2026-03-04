@@ -49,3 +49,33 @@ print(new_set)
 # clear all sets items
 new_set.clear()
 print(new_set)
+
+# Set Operations
+# Union operation
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+union_result = set1 | set2
+print(union_result)
+
+
+# using Set Operator (&) to intersection
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+intersection_result = set1 & set2
+print(intersection_result)
+
+# Symmetric difference
+Days1={"Mon","Tue","Wed","Sat"}
+Days2={"Thr","Fri","Sat","Sun","Mon"}
+print(Days1. symmetric_difference(Days2))
+
+# using Set Operator (^)
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+sym_diff_result = set1 ^ set2
+print(sym_diff_result)
+
+# Looping through the sets data
+set_data = {"anup", 1, 3,"sunday", "jan"}
+for items in set_data:
+    print(items, end=' ')

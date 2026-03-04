@@ -1,17 +1,33 @@
 # Different ways to create dictonary in Python
 # Python dictonary
-# data = {}
-# data["name"] = "Anup"
-# data["age"] = 25
-# print(data)
+data = {}
+data["name"] = "Anup"
+data["age"] = 25
+print(data)
 
-# # Another way to create dictonary
+# Creating Dictonary
+student = {
+    "name": "John",
+    "age": 20,
+    "courses": ["Math", "Science"]
+}
+print(student)
+
+# Using dict() constructor
+another_dict = dict(name="Jane", age=22)
+print(another_dict)
+
+# # Creating dictonary using dict()
+# data3 = dict(name="Shyam", age=35)
+# print(data3)
+
+# # Another dictonary
 # data2 = {"name" :"Ram", "age":30}
 # print(data2)
 
-# # Creating dictonary using dict() function
-# data3 = dict(name="Shyam", age=35)
-# print(data3)
+# create a dictionary from sequence having each item as a pair
+person = dict([("name", "Anup"), ("country", "Nepal"), ("id", 118)])
+print(person)
 
 # # length of dictonary
 # print(len(data3))
@@ -94,7 +110,9 @@ products = {
 #         print(data, ":", items)
 
 # Finding the Total Price Of all Items Availble
-for name, details in products.items():
-    print("Product Name:", name)
+for id, details in products.items():
+    print("Product Name:", details["name"])
     total = details["price"] * details["stock"]
     print("Total is:", total)
+
+    
