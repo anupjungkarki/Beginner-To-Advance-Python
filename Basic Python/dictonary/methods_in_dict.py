@@ -6,6 +6,7 @@ student = {
     "course": "Computer Science",
     "grade": "A"
 }
+
 # Using keys() method
 all_keys = student.keys()
 print(all_keys)
@@ -27,7 +28,7 @@ for value in student.values():
 all_items = student.items()
 print(all_items)
 
-# Using loop accsing all items
+# Using loop for accessing all items
 for key, value in student.items():
       print(key,":", value)
 
