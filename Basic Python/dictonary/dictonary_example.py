@@ -50,8 +50,6 @@ print(staff)
 staff.update({"name": "Ram","age":45})
 print(staff)
 
-
-
 # Removing Items form the dictionary using pop(),popitem(), clear() and del
 stu = {"name":"kiran", "age":22,"regno": 123 , "branch":"AI"}
 # using pop method
